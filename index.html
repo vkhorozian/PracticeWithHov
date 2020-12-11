@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- you can put metta data -->
+
+
+    <style>
+
+
+        .container {
+            background-color: darkseagreen ;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        #header {
+            font-family: "Berlin Sans FB";
+        }
+
+        #first{
+            font-family: "Arial";
+        }
+
+        /* this is a comment for css */
+        /* here you will put the css that goes for your web page styles
+        mod container
+
+        */
+
+    </style>
+
+</head>
+
+<!---    -----------------------------       -->
+
+    <body class="body">
+        <div class="container">
+
+
+            <div class="paragraph" id="header" name="header">
+                <p id="first" > your Paragraph would go here</p>
+            </div>
+
+            <br>
+
+
+            <div class="a-href" id="a-href" name="a-href">
+                <a href="secondpage.html">second page</a>
+                <br>
+                <a href="http://www.yahoo.com">yahoo hotlink</a>
+            </div>
+
+
+
+            <div class="image-test" id="image-test" name="image-test">
+               <img src="img/Cat03.jpg" alt="danny" width="250px" height="250px">
+            </div>
+
+
+            <div class="Bookmarks">
+                <p> This is how to set up bookmarks using css and html</p>
+                <a href="Bookmarks.html"> Bookmarks </a>
+            </div>
+
+
+            <div id="ChangeMe">
+                <h3> this is an H3 Tag </h3>
+                <button onclick="displayResult()">Change text</button>
+            </div>
+                    <script>
+                        function displayResult() {
+                            document.getElementById("ChangeMe").innerHTML = "Have a nice day!";
+                        }
+                    </script>
+
+            <div>
+                <iframe src="http://aaronjp.com/" title="Website template" height="600px" width="800px" ></iframe>
+            </div>
+
+        </div>
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
